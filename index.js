@@ -76,22 +76,27 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".submit-button").prop("disabled", true);
 
-  function validateForm() {
+    function validateForm() {
     let isValid = true;
-    $('input[type="text"], select').each(function () {
-      if ($(this).hasClass("required") && $(this).val().trim() === "") {
-        isValid = false;
+    let requiredFieldsFilled = true;
+    $('.required').each(function () {
+      if ($(this).val().trim() === "") {
+        requiredFieldsFilled = false;
         return false;
       }
-      if ($(this).is('input[type="text"]')) {
-        let inputValue = $(this).val();
-        if (!($.isNumeric(inputValue) || inputValue === "")) {
+    });
+    
+    if (requiredFieldsFilled) {
+      $('input[type="text"]').each(function () {
+        if (!$(this).hasClass("required") && !($.isNumeric($(this).val()) || $(this).val().trim() === "")) {
           isValid = false;
           return false;
         }
-      }
-    });
-
+      });
+    } else {
+      isValid = false; 
+    }
+  
     return isValid;
   }
 
