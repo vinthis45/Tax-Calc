@@ -14,7 +14,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  margin: auto; /* Center the form horizontally and vertically */
+  margin: auto; 
   border: 1px solid white;
   border-radius: 8px;
   display: flex;
