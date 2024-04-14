@@ -1,4 +1,4 @@
-![image](https://github.com/vinthis45/Tax-Calc/assets/132991569/9927e2dc-eba5-4b9e-a2c0-c59d1835cd31)# Tax-Calc
+# Tax-Calc
 A tax calculator with JS, HTML, CSS, jQuery
 
 # Running it on local
