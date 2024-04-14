@@ -1,0 +1,89 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(100deg, rgba(2,0,36,1) 0%, rgba(77,46,88,1) 61%);
+}
+
+#taxCalculatorForm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; /* Center the form horizontally and vertically */
+  border: 1px solid white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 550px;
+  height: 600px;
+  box-shadow: 0 0 20px rgba(186,85,211, 0.3);
+}
+
+.error-icon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+}
+
+.error-icon.show {
+  display: inline-block;
+  background: none;
+  color: purple;
+}
+
+.modal {
+  text-align: center;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  box-shadow: 0 0 20px rgba(186,85,211, 0.5);
+
+}
+
+.form-group label {
+  color: #fff;
+  margin: 0px 0px 3px 0px;
+}
+
+.input-group {
+  width: 400px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.form-control:focus {
+  outline: none; 
+  box-shadow: 0 0 20px rgba(186,85,211, 0.3);
+}
+
+.form-select:focus {
+  outline: none; 
+  box-shadow: 0 0 20px rgba(186,85,211, 0.3);
+}
+
+
+.submit-button {
+  width: 400px;
+  background-color: #662d91;
+  color: white;
+}
+
+.close-button{
+  background-color: #662d91;
+  color: white;
+  
+}
