@@ -17,4 +17,7 @@ https://superb-lollipop-ed350f.netlify.app/
 ![question mark](https://github.com/vinthis45/Tax-Calc/assets/132991569/c67547f4-aaab-47c3-86aa-454fae27e9d3)
 4. Leave the gross income field empty and attempt to submit the form.
 ![total income](https://github.com/vinthis45/Tax-Calc/assets/132991569/fa1681d6-a1dd-4bfc-8498-0f5ee4283687)
-5. 
+5. Enter negative values for gross income, extra income, or total deductions.
+![negative numbers](https://github.com/vinthis45/Tax-Calc/assets/132991569/0f797272-1327-44c5-84b9-e6ce42866b12)
+6. Test scenarios where the total income after tax deductions is less than 800,000, ensuring correct tax calculation
+
