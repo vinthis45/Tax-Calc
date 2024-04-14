@@ -61,7 +61,7 @@ $(document).ready(function () {
   // Error for number fields
   $('input[type="text"]').on("input", function () {
     let inputValue = $(this).val();
-    if (!($.isNumeric(inputValue) || inputValue === "")) {
+    if (!($.isNumeric(inputValue) && inputValue >= 0) || inputValue === "") {
       $(this).next(".error-icon").addClass("show");
     } else {
       $(this).next(".error-icon").removeClass("show");
