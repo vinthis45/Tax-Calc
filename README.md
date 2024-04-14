@@ -19,7 +19,7 @@ https://superb-lollipop-ed350f.netlify.app/
 ![total income](https://github.com/vinthis45/Tax-Calc/assets/132991569/fa1681d6-a1dd-4bfc-8498-0f5ee4283687)
 5. Enter negative values for gross income, extra income, or total deductions.
 ![negative numbers](https://github.com/vinthis45/Tax-Calc/assets/132991569/0f797272-1327-44c5-84b9-e6ce42866b12)
-6. Testing scenarios where the total income after tax deductions is more than 800,000, and age is 34, ensuring correct tax calculation
+6. Testing scenarios where the total income after tax deductions is 4000000, and age is 34, ensuring correct tax calculation
 ![calculation](https://github.com/vinthis45/Tax-Calc/assets/132991569/6691e03a-0f4b-4a21-b86e-5574b3150044)
-7. Testing scenarios where the total income after tax deductions is less than 800,000
+7. Testing scenarios where the total income 800,000
 ![no tax](https://github.com/vinthis45/Tax-Calc/assets/132991569/2787227f-8533-44f4-91ac-1cad6c4f37c9)
